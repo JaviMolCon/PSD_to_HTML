@@ -13,6 +13,85 @@
 /* section */
 /* section */
 /* section */
+#team-section
+{
+  background: url("./img//design-assets/bgk-header.png");
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#team-section h3{
+  color: white;
+  padding-bottom: 0.8rem;
+}
+#team-section .p1{
+  color: #C9C8D2;
+}
+#team-section .underline
+{
+  width:4em;
+  height:0.1em;
+  background-color:#6A6A82;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 10rem;
+}
+.team
+{
+  display: flex;
+  justify-content: center;
+  gap:1rem;
+  flex-flow: wrap;
+}
+#team-section .image
+{
+  width:13em;
+  height:13em;
+  background: white;
+}
+#team-section .text
+{
+  width:13em;
+  height:auto;
+  border: 0.1em solid #6A6A82 ;
+  padding: 1rem;
+}
+.p2
+{
+  color:white;
+  font-size: 0.8em;
+  padding-bottom: 0.4rem;
+}
+.p3
+{
+  color:#6A6A82;
+  font-size: 0.8em;
+}
+.p4
+{
+  color:#C9C8D2;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+.team-section-button
+{
+  background: transparent;
+  color: #58BBB7;
+  border:0.1em solid #58BBB7;
+  padding: 0.4rem;
+}
 /* section */
-
 /* footer */
+@media only screen and (max-width: 600px) {
+  #team-section .underline
+  {
+    visibility: hidden;;
+  }
+}
