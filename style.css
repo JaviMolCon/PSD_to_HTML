@@ -25,7 +25,17 @@
 
 .expertise-section-p1 {
   font-size: 16px;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
+  padding-bottom: 1rem;
+  color: #646369
+  
+}
+
+.expertise-section-hr {
+  width: 3.12rem;
+  align-items: center;
+  border: 2px solid thin;
+  margin: auto;
   color: #727272;
 }
 
