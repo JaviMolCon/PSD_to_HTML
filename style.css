@@ -13,32 +13,6 @@
 /* section */
 /* section expertise-section */
 
-
-/* 
-
-
-.expertise-section-card-title {
-  font-size: .9rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
-  color: #2C2938;
-}
-
-.expertise-section-card-p {
-  font-size: 14px;
-  color: #727272;
-} */
-
-
-/* NOVA SEÇÃO EXPERTISE!!!!!!!!!!!!!!!!!!!*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 #expertise-section {
   text-align: center;
   padding: 2rem 5rem;
@@ -56,15 +30,13 @@
 }
 
 .expertise-section-container {
-  display: grid; /* Usando grid para controlar melhor o layout */
-  grid-template-columns: repeat(3, 1fr); /* 3 colunas com largura igual */
-  gap: 0; /* Espaçamento entre os cards */
-  margin: 0 auto; /* Centraliza o container horizontalmente */
-  max-width: 1200px; /* Define uma largura máxima */
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 0; 
+  margin: 0 auto;
+  max-width: 1200px; 
   padding: 3rem 1rem;
   margin-top: 2.5rem;
-
-
 }
 
 article {
@@ -85,7 +57,6 @@ article {
 .expertise-section-card-content {
   text-align: center;
 }
-
 
 .expertise-section-card1, .expertise-section-card2 {
     border-bottom: solid #EBEBEB; /* Adiciona a borda inferior em telas menores */
@@ -180,6 +151,7 @@ article {
     grid-template-columns: 1fr;
   }
 }
+
 /* section */
 /* section */
 
