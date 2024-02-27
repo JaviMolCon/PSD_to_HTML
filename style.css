@@ -14,61 +14,170 @@
 /* section expertise-section */
 
 
+/* 
+
+
+.expertise-section-card-title {
+  font-size: .9rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: #2C2938;
+}
+
+.expertise-section-card-p {
+  font-size: 14px;
+  color: #727272;
+} */
+
+
+/* NOVA SEÇÃO EXPERTISE!!!!!!!!!!!!!!!!!!!*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 #expertise-section {
   text-align: center;
-  padding: 20px;
+  padding: 2rem 5rem;
 }
 
-/* Estilo para o título da seção */
 .expertise-section-header {
   font-size: 24px;
+  color: #2C2938;
 }
 
-/* Estilo para o parágrafo da seção */
 .expertise-section-p1 {
   font-size: 16px;
+  margin-top: 1rem;
+  color: #727272;
 }
 
-/* Estilo para o container dos artigos */
 .expertise-section-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-right: 9rem;
-  margin-left: 9rem;
-  padding: 3rem;
+  display: grid; /* Usando grid para controlar melhor o layout */
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas com largura igual */
+  gap: 0; /* Espaçamento entre os cards */
+  margin: 0 auto; /* Centraliza o container horizontalmente */
+  max-width: 1200px; /* Define uma largura máxima */
+  padding: 3rem 1rem;
+  margin-top: 2.5rem;
+
+
 }
 
-/* Estilo para cada card de expertise */
 article {
-  margin: 10px;
-  max-width: 300px;
+  margin: .62rem;
+  max-width: 100%;
 }
 
-/* Estilo para a imagem dentro do card */
-article img {
+.expertise-section-card-img {
   max-width: 100%;
   height: auto;
 }
 
-/* Estilo para o título dentro do card */
-.expertise-section-card-title {
-  font-size: 18px;
-  margin-top: 10px;
+.expertise-section-card {
+  padding: 1rem;
+  padding-bottom: 2rem;
 }
 
-/* Estilo para o parágrafo dentro do card */
+.expertise-section-card-content {
+  text-align: center;
+}
+
+
+.expertise-section-card1, .expertise-section-card2 {
+    border-bottom: solid #EBEBEB; /* Adiciona a borda inferior em telas menores */
+    border-right: solid #EBEBEB;
+    border-width: thin;
+    margin: 0;
+    padding: 1rem;
+}
+
+.expertise-section-card3 {
+    border-bottom: solid #EBEBEB; /* Adiciona a borda inferior em telas menores */
+    border-width: thin;
+    margin: 0;
+    padding: 1rem;
+}
+
+.expertise-section-card4 {
+  border-right: solid #EBEBEB;
+  border-width: thin;
+  margin: 0;
+  padding: 1rem;
+  padding-top: 1.5rem;
+}
+
+.expertise-section-card5 {
+  border-right: solid #EBEBEB;
+  border-width: thin;
+  margin: 0;
+  padding: 1rem;
+  padding-top: 1.5rem;
+}
+
+.expertise-section-card6 {
+  margin: 0;
+  padding: 1rem;
+  padding-top: 1.5rem;
+}
+
+.expertise-section-card-title {
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: #2C2938;
+}
+
 .expertise-section-card-p {
   font-size: 14px;
+  color: #727272;
+  padding-bottom: 0.62rem;
 }
 
-/* Estilo responsivo para ajustar a disposição dos cards em telas menores */
 @media screen and (max-width: 768px) {
-  .expertise-section-container {
-    flex-direction: column;
-    margin-right: 0;
-    margin-left: 0;
-    padding: 0;
+  .expertise-section-card1 {
+    border-bottom: solid #EBEBEB; /* Adiciona a borda inferior em telas menores */
+    border-right: none;
+    border-width: thin;
+  }
+
+  .expertise-section-card2 {
+    border-bottom: solid #EBEBEB; /* Adiciona a borda inferior em telas menores */
+    border-right: none;
+    border-width: thin;
+  }
+
+  .expertise-section-card3 {
+    border-bottom: solid #EBEBEB; /* Adiciona a borda inferior em telas menores */
+    border-right: none;
+    border-width: thin;
+  }
+
+  .expertise-section-card4 {
+    border-bottom: solid #EBEBEB; /* Adiciona a borda inferior em telas menores */
+    border-right: none;
+    border-width: thin;
+  }
+
+  .expertise-section-card5 {
+    border-bottom: solid #EBEBEB; /* Adiciona a borda inferior em telas menores */
+    border-right: none;
+    border-width: thin;
+  }
+
+  .expertise-section-card6 {
+    border-bottom: solid #EBEBEB; /* Adiciona a borda inferior em telas menores */
+    border-right: none;
+    border-width: thin;
+  }
+
+
+  .expertise-section-container, .expertise-section-header, .expertise-section-p1 {
+    grid-template-columns: 1fr;
   }
 }
 /* section */
