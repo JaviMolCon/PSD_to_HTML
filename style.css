@@ -30,13 +30,15 @@
 #team-section h3{
   color: white;
   padding-bottom: 0.8rem;
+  font-family: 'Times New Roman', Times, serif;
 }
 #team-section .p1{
   color: #C9C8D2;
+  font-family: 'Times New Roman', Times, serif;
 }
 #team-section .underline
 {
-  width:4em;
+  width:2.8em;
   height:0.1em;
   background-color:#6A6A82;
   justify-content: center;
@@ -87,6 +89,8 @@
   color: #58BBB7;
   border:0.1em solid #58BBB7;
   padding: 0.4rem;
+  font-weight: bold;
+  border-radius: 0.1rem;
 }
 /* section */
 /* footer */
