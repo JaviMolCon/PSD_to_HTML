@@ -6,6 +6,97 @@
 }
 
 /* header */
+header {
+  background-image: url(./img/design-assets/bgk-header.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+header .navright {
+  padding: 1rem;
+}
+header .navright ul {
+  display: flex;
+  flex-direction: row;
+}
+
+header .navright ul li {
+  list-style: none;
+  padding: 1rem;
+}
+
+header .navright ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.homebutton a {
+  color: #279eb0;
+}
+header .navleft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .navleft img {
+  padding: 0.7rem;
+}
+
+header .navleft span {
+  color: #279eb0;
+  font-size: xx-large;
+  font-weight: 3;
+}
+
+header .hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 13rem;
+  padding-left: 13rem;
+  padding-right: 13rem;
+  color: white;
+}
+
+header .hero h1 {
+  padding: 1rem;
+  font-family: "DM Serif Display", serif;
+  font-size: xx-large;
+}
+
+header .header-hr {
+  width: 3.12rem;
+  align-items: center;
+  border: 2px thin;
+  margin: auto;
+  border-color: #279eb0;
+}
+
+header .hero p {
+  line-height: 20px;
+  font-size: small;
+  padding: 2rem 10rem;
+  align-items: center;
+}
+
+header .hero button {
+  background-color: transparent;
+  border-color: #279eb0;
+  color: #279eb0;
+  padding: 1rem 1.3rem;
+  margin-top: 2rem;
+  font-weight: bolder;
+  border-style: solid;
+}
+
 /* nav */
 
 /* main */
