@@ -13,6 +13,64 @@
 /* section */
 /* section expertise-section */
 
+
+#expertise-section {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilo para o título da seção */
+.expertise-section-header {
+  font-size: 24px;
+}
+
+/* Estilo para o parágrafo da seção */
+.expertise-section-p1 {
+  font-size: 16px;
+}
+
+/* Estilo para o container dos artigos */
+.expertise-section-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 9rem;
+  margin-left: 9rem;
+  padding: 3rem;
+}
+
+/* Estilo para cada card de expertise */
+article {
+  margin: 10px;
+  max-width: 300px;
+}
+
+/* Estilo para a imagem dentro do card */
+article img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilo para o título dentro do card */
+.expertise-section-card-title {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Estilo para o parágrafo dentro do card */
+.expertise-section-card-p {
+  font-size: 14px;
+}
+
+/* Estilo responsivo para ajustar a disposição dos cards em telas menores */
+@media screen and (max-width: 768px) {
+  .expertise-section-container {
+    flex-direction: column;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+  }
+}
 /* section */
 /* section */
 
