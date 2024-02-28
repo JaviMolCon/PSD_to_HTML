@@ -7,10 +7,24 @@
 
 /* header */
 header {
+  /* display: flex; */
   background-image: url(./img/design-assets/bgk-header.png);
-  background-position: top;
-  background-repeat: no-repeat;
+    justify-content: center;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+  /* display: flex;
+  flex-direction: column; */
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* background-repeat: no-repeat;
+  background-size: cover;
   background-size: 100%;
+ height: auto;
+  */
+  /* width: 100vw; */ */
 }
 
 header nav {
@@ -59,10 +73,10 @@ header .hero {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 3rem;
+  padding-top: 7rem;
   padding-bottom: 13rem;
-  padding-left: 13rem;
-  padding-right: 13rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
   color: white;
 }
 
@@ -70,6 +84,7 @@ header .hero h1 {
   padding: 1rem;
   font-family: "DM Serif Display", serif;
   font-size: xx-large;
+  text-align: center;
 }
 
 header .header-hr {
@@ -81,13 +96,14 @@ header .header-hr {
 }
 
 header .hero p {
-  line-height: 20px;
+  line-height: 25px;
   font-size: small;
-  padding: 2rem 10rem;
+  padding: 2rem 26%;
   align-items: center;
+  text-align: center;
 }
 
-header .hero button {
+.button {
   background-color: transparent;
   border-color: #279eb0;
   color: #279eb0;
@@ -97,11 +113,64 @@ header .hero button {
   border-style: solid;
 }
 
-/* nav */
-
 /* main */
+/* section our story*/
+
+#our_story-section {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 24%;
+  padding-left: 24%;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  gap: 10%;
+}
+
+#our_story-section img {
+  object-fit: none;
+}
+
+.textsection1 {
+}
+
+.textsection1 h2 {
+  padding-bottom: 2rem;
+  font-family: "DM Serif Display", serif;
+}
+
+.textsection1 p {
+  color: rgb(101, 101, 101);
+  
+}
+
 /* section */
-/* section */
+#watch-section {
+  background-image: url(./img/design-assets/bgk-middle.png);
+  background-size: cover;
+  height: 65vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.play {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.play span {
+  padding: 1.5rem;
+
+}
+
+
+
 /* section */
 /* section */
 /* section */
