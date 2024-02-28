@@ -48,6 +48,10 @@
   height:16.5rem;
   /* width:25rem; */
 }
+#contact_client-section .form input,.message:focus
+{
+  outline: none;
+}
 #contact_client-section .form .form-button
 {
   width: 6rem;
