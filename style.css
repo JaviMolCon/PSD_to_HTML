@@ -147,7 +147,6 @@ header .hero p {
   background-image: url(./img/design-assets/bgk-middle.png);
   background-size: cover;
   height: 65vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -168,6 +167,14 @@ header .hero p {
 
 }
 
+
+
+
+/* section */
+/* section */
+/* section */
+
+/* footer */
 @media only screen and (max-width: 800px) {
     header .navright img{
         display: inline;
@@ -180,13 +187,5 @@ header .hero p {
 
     #our_story-section {
       flex-wrap: wrap;
-
-    }
+}
   }
-
-
-/* section */
-/* section */
-/* section */
-
-/* footer */
