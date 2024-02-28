@@ -36,6 +36,11 @@ header nav {
 header .navright {
   padding: 1rem;
 }
+
+header .navright img {
+  display: none;
+}
+
 header .navright ul {
   display: flex;
   flex-direction: row;
@@ -51,9 +56,6 @@ header .navright ul li a {
   color: white;
 }
 
-.homebutton a {
-  color: #279eb0;
-}
 header .navleft {
   display: flex;
   flex-direction: row;
@@ -130,9 +132,6 @@ header .hero p {
   object-fit: none;
 }
 
-.textsection1 {
-}
-
 .textsection1 h2 {
   padding-bottom: 2rem;
   font-family: "DM Serif Display", serif;
@@ -169,6 +168,21 @@ header .hero p {
 
 }
 
+@media only screen and (max-width: 700px) {
+    header .navright img{
+        display: inline;
+        float: right;
+        padding-right: 2rem;
+    }
+    header .navright ul{
+        display:none;
+    }
+
+    #our_story-section {
+      flex-wrap: wrap;
+
+    }
+  }
 
 
 /* section */
