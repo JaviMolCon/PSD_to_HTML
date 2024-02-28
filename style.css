@@ -22,7 +22,7 @@
   /* background-color: skyblue; */
   padding-top: 5rem;
   padding-bottom: 5rem;
-  gap:6rem;
+  gap:11rem;
 }
 #contact_client-section h3{
   padding-bottom:2rem ;
@@ -66,7 +66,7 @@
 {
   display: flex;
   justify-content: space-around;
-  gap:4rem;
+  gap:8rem;
   flex-flow: wrap;
 }
 .image-group1
