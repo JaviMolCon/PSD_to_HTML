@@ -115,7 +115,7 @@ header .hero p {
   border-style: solid;
 }
 
-
+/* main */
 #our_story-section {
   display: flex;
   justify-content: space-between;
@@ -513,5 +513,187 @@ article {
   gap:3rem;
   }
 }
+/* footer */
+footer {
+  color: #FEFEFE;
+  padding: 2.5rem, 0;
+  background: url("./img/design-assets/bgk-footer.png");
+  /* background-size: cover; */
+  justify-content: center;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 
+}
+
+footer .upper-section{
+display: flex;
+flex-direction: column;
+/* top and bottom | left and right */
+margin: 3% 10%;
+display: flex;
+gap: 0.5em;
+justify-content: space-around;
+flex-flow: wrap;
+}
+
+footer .card1{
+  text-align: center;
+  padding: 1rem;
+}
+
+footer .card1-content{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+
+footer .tajam-title{
+  /* align-content: flex-end; */
+  margin-left: 0.5rem;
+  color:#279eb0;
+  font-family: dm sans;
+  font-size:xx-large;
+}
+
+footer .tajam-text{
+  inline-size: 300px;
+  overflow: hidden;
+  font-family:'Times New Roman', Times, serif;
+  text-align: left;
+  margin-top: 1.3rem;
+}
+
+footer .card2{
+  text-align: left;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .studio{
+  margin-top: 1rem;
+}
+
+footer .card2-content1{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+
+footer .address{
+  inline-size: 205px;
+  overflow: hidden;
+  font-family:'Times New Roman', Times, serif;
+  text-align: left;
+  margin-top: 1.9rem;
+  margin-left: 0.8rem;
+}
+
+footer .card2-content2{
+  display: flex;
+  flex-direction: row;
+}
+
+footer .card2-content2 img{
+  height: 17px;
+  width: 17px ;
+  margin-top: 1.6rem;
+}
+
+footer .phone{
+  font-family:'Times New Roman', Times, serif;
+  text-align: left;
+  margin-top: 1.7rem;
+  margin-left: 0.8rem;
+}
+
+footer .card3{
+  text-align: left;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .stay-in-touch{
+  margin-top: 1rem;
+  margin-bottom: 1.7rem;
+}
+
+footer .card3-content1{
+  display: flex;
+  flex-direction: row;
+}
+
+footer .newsletter{
+  border: 1.2px solid #9F9CB3;
+  padding: 0.8rem 1.1rem;
+  color: #9F9CB3;
+  text-align: center;
+
+}
+
+footer .card3-content1 img{
+  border: 1px solid #9F9CB3;
+  background-color:  #9F9CB3;
+  padding: 0.8rem 1.5rem ;
+  margin-left: 0.5rem;
+  align-items: center;
+}
+
+footer .social {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  justify-content: space-around;
+
+}
+
+
+footer .lower-section {
+ display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #D5D5DD;
+  font-family:'Times New Roman', Times, serif;
+  flex-flow: wrap;
+  gap: 17rem;
+}
+footer .lower-left{
+  display: flex;
+  justify-content:space-between;
+}
+footer ul {
+  display: flex;
+  justify-content:space-between;
+  align-items: left;
+}
+footer li {
+  text-align:left;
+  list-style: none;
+  text-decoration: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #D5D5DD;
+  padding: 1.5em;
+}
+@media only screen and (max-width: 768px) {
+  footer .lower-section {
+    gap:3rem;
+  }
+}
+@media only screen and (max-width: 600px){
+footer .lower-right{
+ padding-left: 3.5rem;
+}
+}
 
