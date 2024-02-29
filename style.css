@@ -195,6 +195,9 @@ header .hero p {
   color: #2C2938;
 }
 
+
+
+
 .expertise-section-p1 {
   font-size: 16px;
   margin-top: 0.5rem;
@@ -419,4 +422,96 @@ article {
     visibility: hidden;;
   }
 }
+
+#contact_client-section
+{
+  display: flex;
+  justify-content:center;
+  flex-flow: wrap;
+  /* background-color: skyblue; */
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  gap:11rem;
+}
+#contact_client-section h3{
+  padding-bottom:2rem ;
+  font-family:'Times New Roman', Times, serif;
+}
+#contact_client-section .form
+{
+  display: flex;
+  flex-direction: column;
+  gap:1.2rem;
+}
+#contact_client-section .form input{
+  height:2.7rem;
+  width:25rem;
+  padding-left: 1rem;
+  border: 0.1rem solid #E8E8E8;
+}
+#contact_client-section .form .message
+{
+  padding-left: 1rem;
+  padding-top: 1rem;
+  border: 0.1rem solid #E8E8E8;
+  height:16.5rem;
+  /* width:25rem; */
+}
+#contact_client-section .form input,.message:focus
+{
+  outline: none;
+}
+#contact_client-section .form .form-button
+{
+  width: 6rem;
+  height: 2rem;
+  background: transparent;
+  border:0.1rem solid #75DDD1;
+  color:#75DDD1;
+  font-weight: bold;
+  border-radius: 0.1rem;
+}
+.right img{
+  max-width: 100%;
+  height: auto;
+}
+.image-group
+{
+  display: flex;
+  justify-content: space-around;
+  gap:8rem;
+  flex-flow: wrap;
+}
+.image-group1
+{
+  display:flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.image-group2
+{
+  display:flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+@media only screen and (max-width: 425px) {
+  #contact_client-section .form input,.message{
+    width:18rem;
+  }
+  #contact_client-section .right{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  #contact_client-section h3{
+   text-align: center;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #contact_client-section
+  {
+  gap:3rem;
+  }
+}
+
 
