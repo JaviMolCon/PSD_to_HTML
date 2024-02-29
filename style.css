@@ -22,7 +22,7 @@ header {
   /* background-repeat: no-repeat;
   background-size: cover;
   background-size: 100%;
- height: auto;
+height: auto;
   */
   /* width: 100vw; */ */
 }
@@ -669,11 +669,11 @@ footer .lower-section {
 }
 footer .lower-left{
   display: flex;
-  justify-content:space-between;
+  justify-content:center;
 }
 footer ul {
   display: flex;
-  justify-content:space-between;
+  /* justify-content:space-between; */
   align-items: left;
 }
 footer li {
@@ -696,4 +696,3 @@ footer .lower-right{
  padding-left: 3.5rem;
 }
 }
-
