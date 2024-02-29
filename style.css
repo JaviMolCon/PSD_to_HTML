@@ -115,8 +115,6 @@ header .hero p {
   border-style: solid;
 }
 
-/* main */
-/* section our story*/
 
 #our_story-section {
   display: flex;
@@ -162,6 +160,30 @@ header .hero p {
       flex-wrap: wrap;
 }
   }
+
+#watch-section {
+  background-image: url(./img/design-assets/bgk-middle.png);
+  background-size: cover;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.play {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.play span {
+  padding: 1.5rem;
+
+}
 
 #expertise-section {
   text-align: center;
@@ -312,29 +334,89 @@ article {
   }
 }
 
-#watch-section {
-  background-image: url(./img/design-assets/bgk-middle.png);
+#team-section
+{
+  background: url("./img//design-assets/bgk-header.png");
+  justify-content: center;
   background-size: cover;
-  height: 65vh;
+  text-align: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
-
-.play {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+#team-section h3{
   color: white;
+  padding-bottom: 0.8rem;
+  font-family: 'Times New Roman', Times, serif;
 }
-
-.play span {
-  padding: 1.5rem;
-
+#team-section .p1{
+  color: #C9C8D2;
+  font-family: 'Times New Roman', Times, serif;
 }
-
-
+#team-section .underline
+{
+  width:2.8em;
+  height:0.11em;
+  background-color:#727272;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 10rem;
+}
+.team
+{
+  display: flex;
+  justify-content: center;
+  gap:1rem;
+  flex-flow: wrap;
+}
+#team-section .image
+{
+  width:17em;
+  height:17em;
+  background: white;
+}
+#team-section .text
+{
+  width:17em;
+  height:auto;
+  border: 0.1em solid #6A6A82 ;
+  padding: 1rem;
+}
+.p2
+{
+  color:white;
+  font-size: 0.8em;
+  padding-bottom: 0.4rem;
+}
+.p3
+{
+  color:#6A6A82;
+  font-size: 0.8em;
+}
+.p4
+{
+  color:#C9C8D2;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+.team-section-button
+{
+  background: transparent;
+  color: #58BBB7;
+  border:0.1em solid #58BBB7;
+  padding: 0.4rem;
+  font-weight: bold;
+  border-radius: 0.1rem;
+}
+@media only screen and (max-width: 600px) {
+  #team-section .underline
+  {
+    visibility: hidden;;
+  }
+}
 
