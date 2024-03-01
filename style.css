@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 /* header */
 header {
   background-image: url(./img/design-assets/bgk-header.png);
@@ -17,36 +16,29 @@ header {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-
 header nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-
 header .navright {
   padding: 1rem;
 }
-
 header .navright img {
   display: none;
 }
-
 header .navright ul {
   display: flex;
   flex-direction: row;
 }
-
 header .navright ul li {
   list-style: none;
   padding: 1rem;
 }
-
 header .navright ul li a {
   text-decoration: none;
   color: white;
 }
-
 header .navleft {
   display: flex;
   flex-direction: row;
@@ -55,13 +47,11 @@ header .navleft {
 header .navleft img {
   padding: 0.7rem;
 }
-
 header .navleft span {
   color: #279eb0;
   font-size: xx-large;
   font-weight: 3;
 }
-
 header .hero {
   display: flex;
   flex-direction: column;
@@ -72,14 +62,12 @@ header .hero {
   padding-right: 10rem;
   color: white;
 }
-
 header .hero h1 {
   padding: 1rem;
   font-family: "DM Serif Display", serif;
   font-size: xx-large;
   text-align: center;
 }
-
 header .header-hr {
   width: 3.12rem;
   align-items: center;
@@ -87,7 +75,6 @@ header .header-hr {
   margin: auto;
   border-color: #279eb0;
 }
-
 header .hero p {
   line-height: 25px;
   font-size: small;
@@ -95,7 +82,6 @@ header .hero p {
   align-items: center;
   text-align: center;
 }
-
 .button {
   background-color: transparent;
   border-color: #279eb0;
@@ -105,7 +91,6 @@ header .hero p {
   font-weight: bolder;
   border-style: solid;
 }
-
 /* main */
 #our_story-section {
   display: flex;
@@ -116,42 +101,32 @@ header .hero p {
   padding-top: 4rem;
   gap: 10%;
 }
-
 #our_story-section img {
   object-fit: none;
 }
-
 .textsection1 h2 {
   padding-bottom: 2rem;
   font-family: "DM Serif Display", serif;
 }
-
 .textsection1 p {
-  color: rgb(101, 101, 101);
-  
+  color: rgb(101, 101, 101); 
 }
-
-@media only screen and (max-width: 800px) {
-    
+@media only screen and (max-width: 800px) {    
   header nav {
     justify-content: space-between;
-  }
-  
+  } 
   header .navright img{
-
-        display: inline;
-        float: right;
-        padding-right: 2rem;
-    }
-    header .navright ul{
-        display:none;
-    }
-
-    #our_story-section {
-      flex-wrap: wrap;
-}
+    display: inline;
+    float: right;
+    padding-right: 2rem;
   }
-
+  header .navright ul{
+    display:none;
+  }
+  #our_story-section {
+    flex-wrap: wrap;
+  }
+  }
 #watch-section {
   background-image: url(./img/design-assets/bgk-middle.png);
   background-size: cover;
@@ -162,7 +137,6 @@ header .hero p {
   justify-content: center;
   padding: 5rem;
 }
-
 .play {
   display: flex;
   flex-direction: column;
@@ -170,33 +144,23 @@ header .hero p {
   justify-content: center;
   color: white;
 }
-
 .play span {
   padding: 1.5rem;
-
 }
-
 #expertise-section {
   text-align: center;
   padding: 2rem 5rem;
 }
-
 .expertise-section-header {
   font-size: 24px;
   color: #2C2938;
 }
-
-
-
-
 .expertise-section-p1 {
   font-size: 16px;
   margin-top: 0.5rem;
   padding-bottom: 1rem;
   color: #646369
-  
 }
-
 .expertise-section-hr {
   width: 3.12rem;
   align-items: center;
@@ -204,7 +168,6 @@ header .hero p {
   margin: auto;
   color: #727272;
 }
-
 .expertise-section-container {
   display: grid; 
   grid-template-columns: repeat(3, 1fr); 
@@ -214,26 +177,21 @@ header .hero p {
   padding: 3rem 1rem;
   margin-top: 2.5rem;
 }
-
 article {
   margin: .62rem;
   max-width: 100%;
 }
-
 .expertise-section-card-img {
   max-width: 100%;
   height: auto;
 }
-
 .expertise-section-card {
   padding: 1rem;
   padding-bottom: 2rem;
 }
-
 .expertise-section-card-content {
   text-align: center;
 }
-
 .expertise-section-card1, .expertise-section-card2 {
     border-bottom: solid #EBEBEB; /* Adiciona a borda inferior em telas menores */
     border-right: solid #EBEBEB;
@@ -241,14 +199,12 @@ article {
     margin: 0;
     padding: 1rem;
 }
-
 .expertise-section-card3 {
     border-bottom: solid #EBEBEB; /* Adiciona a borda inferior em telas menores */
     border-width: thin;
     margin: 0;
     padding: 1rem;
 }
-
 .expertise-section-card4 {
   border-right: solid #EBEBEB;
   border-width: thin;
@@ -256,7 +212,6 @@ article {
   padding: 1rem;
   padding-top: 1.5rem;
 }
-
 .expertise-section-card5 {
   border-right: solid #EBEBEB;
   border-width: thin;
@@ -264,13 +219,11 @@ article {
   padding: 1rem;
   padding-top: 1.5rem;
 }
-
 .expertise-section-card6 {
   margin: 0;
   padding: 1rem;
   padding-top: 1.5rem;
 }
-
 .expertise-section-card-title {
   font-size: 0.9rem;
   margin-top: 2rem;
@@ -278,56 +231,46 @@ article {
   text-transform: uppercase;
   color: #2C2938;
 }
-
 .expertise-section-card-p {
   font-size: 14px;
   color: #727272;
   padding-bottom: 0.62rem;
 }
-
 @media screen and (max-width: 768px) {
   .expertise-section-card1 {
     border-bottom: solid #EBEBEB; /* Adiciona a borda inferior em telas menores */
     border-right: none;
     border-width: thin;
   }
-
   .expertise-section-card2 {
     border-bottom: solid #EBEBEB; /* Adiciona a borda inferior em telas menores */
     border-right: none;
     border-width: thin;
   }
-
   .expertise-section-card3 {
     border-bottom: solid #EBEBEB; /* Adiciona a borda inferior em telas menores */
     border-right: none;
     border-width: thin;
   }
-
   .expertise-section-card4 {
     border-bottom: solid #EBEBEB; /* Adiciona a borda inferior em telas menores */
     border-right: none;
     border-width: thin;
   }
-
   .expertise-section-card5 {
     border-bottom: solid #EBEBEB; /* Adiciona a borda inferior em telas menores */
     border-right: none;
     border-width: thin;
   }
-
   .expertise-section-card6 {
     border-bottom: solid #EBEBEB; /* Adiciona a borda inferior em telas menores */
     border-right: none;
     border-width: thin;
   }
-
-
   .expertise-section-container, .expertise-section-header, .expertise-section-p1 {
     grid-template-columns: 1fr;
   }
 }
-
 #team-section
 {
   background: url("./img//design-assets/bgk-header.png");
